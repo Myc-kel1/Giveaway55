@@ -1,0 +1,91 @@
+body {
+  background-color: cornsilk;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon h2 {
+  margin: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: larger;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.context {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.left img {
+  max-width: 100%;
+  height: auto;
+  height: 100%;
+  width: 250%;
+  padding: 5%;
+}
+.right {
+  flex: 1;
+  padding: 50px;
+  font-family: sans-serif;
+}
+.box {
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.count {
+  text-align: center;
+  padding: 20px;
+}
+.count button{
+  background-color: aquamarine;
+  border-radius: 3px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+}
+
+#countdown div {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.smalltext {
+  color: #555;
+}
+
+@media screen and (max-width: 900px) {
+  .context{
+    display: block;
+  }
+}
